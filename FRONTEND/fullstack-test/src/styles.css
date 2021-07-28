@@ -1,0 +1,42 @@
+.cardContainer {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px 10px 10px;
+
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+
+  transition: all 0.2s ease;
+}
+
+.cardContainer:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}
+
+.cardContent strong, p, span{
+  margin: 4px;
+}
+
+.cardContent strong {
+  color: #4b5559;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+}
+
+.cardContent p {
+  color: #4d8d75;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.cardContent span {
+  color: #858b8e;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+}

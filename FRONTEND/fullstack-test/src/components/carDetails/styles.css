@@ -1,0 +1,118 @@
+.cardDetailsContainer {
+  height: 100%;
+  background-color: #f1f2f0;
+
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+  margin-bottom: 20px;
+}
+
+
+.cardDetailsTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+  font-size: 26px;
+  color: #4d8d75;
+  margin: 25px 15px;
+}
+
+.subHeader {
+  display: flex;
+  margin: 0 15px;
+  align-items: center;
+}
+
+.cardDetailsMarca, .cardDetailsAno {
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.cardDetailsMarca strong {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4b5559;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.cardDetailsMarca span {
+  font-size: 18px;
+  color: #4b5559;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.cardDetailsAno strong {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4b5559;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.cardDetailsAno span {
+  font-size: 18px;
+  color: #4b5559;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.cardDetailsContainer main {
+  margin: 25px 15px;
+}
+
+.cardDetailsContainer main p {
+  margin: 0;
+  font-size: 22px;
+  max-height: 300px;
+}
+
+.cardDetailsContainer footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 15px 0 15px;
+  border-top: 1px solid #45535a;
+}
+
+.cardDetailsContainer footer button {
+  display: flex;
+  align-items: center;
+  background-color: #45535a;
+  height: 45px;
+  width: 150px;
+  border-radius: 3px;
+
+  transition: all 0.2s ease;
+}
+
+.cardDetailsContainer footer button p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  letter-spacing: .9px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.cardDetailsContainer footer button svg {
+  margin: 10px;
+}
+
+.cardDetailsContainer footer button:hover {
+  cursor: pointer;
+  filter: brightness(0.9);
+}
+
+.titleEmpty {
+  text-align: center;
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 50px;
+  color:#4d8d75;
+}

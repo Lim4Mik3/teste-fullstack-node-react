@@ -1,4 +1,28 @@
-# Teste fullstack
+# Teste fullstack -- FINALIZADO Leonardo Oliveira
+
+## Instruções para instalação
+
+O projeto está separa entre o backend e frontend pelas pastas nessa raiz.
+
+Entre no diretório do backend abra o console ou prompt de comando e execute `YARN` para instalação de todas as dependencias necessárias.
+
+Após isso execute o comando `YARN DEV` no console para executar o sistema em ambiente de desenvolvimento, o projeto está usando um banco de dados noSQL online direto do atlas MONGODB, com isso, temos a facilidade nas instalações.
+
+Se aparecer a mensagem no console `SERVER IS RUNNING` e logo após `Database connection success!` quer dizer que tudo ocorreu bem e o backend está pronto para execução.
+
+Vamos partir para o frontend, da mesma forma entre no diretório raiz e execute o comando `YARN` para instalação das dependencias.
+
+Após isso execute o comando `YARN START` para iniciar a aplicação e acesse o enderenço htpp://localhost:3000.
+
+## TESTES
+
+Foi solicitado a execução dos testes da API criada, para isso tive que aplicar os principios do SOLID para que isso fosse possivel, como a inversão de dependencias. Abra o console e execute `YARN TEST` e os testes iram ser executados.
+
+Para os testes usei o jest.
+
+
+#### Obrigado.
+
 
 Leia primeiro todo o projeto, faça sua estimativa de horas para o desenvolvimento e envie um email com o título `[Teste Fullstack] Estimativa` para rh@4.events
 
